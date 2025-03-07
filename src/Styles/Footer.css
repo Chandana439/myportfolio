@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+.footer--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 56.667px 75.333px;
+  gap: 170px;
+}
+.footer--link--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer--items > ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 52.667px;
+  text-decoration: none;
+  padding: 0;
+  margin: 10px;
+}
+.footer--items ul > li > a {
+  text-decoration: none;
+}
+
+.footer--content {
+  color: var(--black);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+  transition: color 1s ease-in-out;
+}
+
+.footer--content:hover {
+  color: var(--primary);
+}
+.footer--social--icon > ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+  flex-shrink: 0;
+  text-decoration: none;
+  padding: 0;
+}
+
+.footer--img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.divider {
+  height: 0.333px;
+  width: 100%;
+  background: rgba(40, 41, 56, 0.55);
+}
+
+.footer--logo {
+  width: 100px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.footer--letter {
+  font-family: "Ephesis", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  color: var(--primary);
+  letter-spacing: 6px;
+}

@@ -1,0 +1,132 @@
+/* Skills Section Style */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+.skills--section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25.33px 120.33px;
+  gap: 30.667px;
+}
+
+.portfolio--container {
+  text-align: left;
+  width: 100%;
+}
+
+.skills--section--heading {
+  color: var(--heading-color);
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 67px;
+  margin: 0px;
+}
+
+.skills--section--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  margin-bottom: 25px;
+}
+
+.skills--section--card {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 0px solid var(--primary);
+  transition: border-bottom 0.6s ease-in-out;
+}
+
+.skills--section--card:hover {
+  cursor: pointer;
+  border-bottom: 4px solid var(--primary);
+}
+
+.skills--section--card > h2 {
+  font-size: 28px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.skills--section--images {
+  display: flex;
+  flex-wrap: wrap; /* Allows the items to wrap if there are too many to fit */
+  justify-content: center; /* Centers the images horizontally */
+  gap: 20px;
+}
+
+.skills--section--category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skills--section--category img {
+  width: 55px;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  padding: 14px;
+  margin: 10px;
+  margin-bottom: 30px;
+  object-fit: contain;
+  background: #fef9f8;
+  border-radius: 11px;
+  box-shadow: 0 0 10px 2px #aaa9a8;
+}
+
+.skills--image--title {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 10px;
+}
+.skills--section--certifications {
+  width: 100%;
+}
+.certifications--title {
+  font-size: 28px;
+  font-family: fantasy;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.each--certificate {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.each--certificate ul li:before {
+  content: "";
+
+  display: inline-block;
+
+  height: 18px;
+
+  width: 18px;
+
+  background-size: 18px;
+
+  background-image: url("img/badge.png");
+
+  background-repeat: no-repeat;
+
+  margin-right: 5px;
+}
+
+.each--certificate ul li a {
+  color: var(--primary);
+}

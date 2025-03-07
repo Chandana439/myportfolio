@@ -1,0 +1,148 @@
+{
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/RPS-01.png",
+      "title": "RPS",
+      "link": "https://chandana439.github.io/rock-paper-scissors-/"
+    },
+    {
+      "id": "2",
+      "src": "./img/recipe-finder.png",
+      "title": "Recipe Finder",
+      "link": "https://browse-recipes-reactapp.netlify.app"
+    },
+    {
+      "id": "3",
+      "src": "./img/quiz-01.png",
+      "title": "Quiz App",
+      "link": "https://smp-quiz-applctn-react.netlify.app"
+    }
+  ],
+  "frontend": [
+    {
+      "id": "1",
+      "src": "./frontend/html.svg",
+      "title": "HTML"
+    },
+    {
+      "id": "2",
+      "src": "./frontend/css.png",
+      "title": "CSS"
+    },
+    {
+      "id": "3",
+      "src": "./frontend/js.png",
+      "title": "JAVASCRIPT"
+    },
+    {
+      "id": "4",
+      "src": "./frontend/sass.png",
+      "title": "SASS"
+    },
+    {
+      "id": "5",
+      "src": "./frontend/react.svg",
+      "title": "REACT"
+    }
+  ],
+  "backend": [
+    {
+      "id": "1",
+      "src": "./backend/java.svg",
+      "title": "JAVA"
+    },
+    {
+      "id": "2",
+      "src": "./backend/spring.png",
+      "title": "SPRINGBOOT"
+    },
+    {
+      "id": "3",
+      "src": "./backend/nodejs.png",
+      "title": "NODEJS"
+    },
+    {
+      "id": "4",
+      "src": "./backend/maven.svg",
+      "title": "MAVEN"
+    },
+    {
+      "id": "5",
+      "src": "./backend/gradle.svg",
+      "title": "GRADLE"
+    }
+  ],
+  "database": [
+    {
+      "id": "1",
+      "src": "./database/mysql.png",
+      "title": "MYSQL"
+    },
+    {
+      "id": "2",
+      "src": "./database/mongodb.png",
+      "title": "MONGODB"
+    },
+    {
+      "id": "3",
+      "src": "./database/postgresql.png",
+      "title": "POSTGRESQL"
+    }
+  ],
+  "cloud": [
+    {
+      "id": "1",
+      "src": "./cloud/aws.png",
+      "title": "AWS"
+    },
+    {
+      "id": "2",
+      "src": "./cloud/IAM.png",
+      "title": "IAM"
+    },
+    {
+      "id": "3",
+      "src": "./cloud/EC2.png",
+      "title": "EC2"
+    },
+    {
+      "id": "4",
+      "src": "./cloud/sss.png",
+      "title": "S3"
+    },
+    {
+      "id": "5",
+      "src": "./cloud/RDS.png",
+      "title": "RDS"
+    },
+    {
+      "id": "6",
+      "src": "./cloud/docker.png",
+      "title": "DOCKER"
+    },
+    {
+      "id": "7",
+      "src": "./cloud/jenkins.png",
+      "title": "JENKINS"
+    }
+  ],
+
+  "certifications": [
+    {
+      "id": "1",
+      "name": "AWS Certificed Cloud Practitioner",
+      "src": "./documents/AWS Certified Cloud Practitioner certificate.pdf"
+    },
+    {
+      "id": "2",
+      "name": "AWS Certified Developer Associate",
+      "src": "./documents/AWS Certified Cloud Practitioner certificate.pdf"
+    },
+    {
+      "id": "3",
+      "name": "Microsoft Certificed Azure Fundamentals",
+      "src": "https://learn.microsoft.com/api/credentials/share/en-us/ChandanaGanesu-8789/80C4050FD97ABFF1?sharingId=A550FD854A653AE"
+    }
+  ]
+}

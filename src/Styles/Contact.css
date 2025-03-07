@@ -1,0 +1,66 @@
+.contact--section {
+  display: flex;
+  flex-direction: column;
+  color: var(--black);
+  background: var(--bg-shade);
+}
+
+.contact--section--title {
+  background: var(--bg-shade);
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.contact--title {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.contact--ways {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.contact--email,
+.contact--linkedin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background-color: whitesmoke;
+  color: var(--black);
+  padding: 25px 25px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: 450px;
+  height: 200px;
+}
+
+.contact--email > h4,
+.contact--linkedin > h4 {
+  text-align: center;
+  font-size: 24px;
+}
+.contact--email > p,
+.contact--linkedin > p {
+  text-align: center;
+  font-size: 16px;
+}
+.contact--email > button,
+.contact--linkedin > button {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 200;
+  letter-spacing: 1.3px;
+  border-radius: 10px;
+  padding: 12px 12px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  color: var(--background);
+  background-color: rgb(147, 142, 142);
+}
