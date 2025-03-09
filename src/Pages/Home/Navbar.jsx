@@ -119,7 +119,7 @@ const Navbar = () => {
           >
             <img
               className="navbar--img"
-              src="./linkedin-icon.png"
+              src="./social/linkedin-icon.png"
               alt="linkedin icon"
             />
           </a>
@@ -130,7 +130,7 @@ const Navbar = () => {
           >
             <img
               className="navbar--img"
-              src="./github-icon.png"
+              src="./social/github-icon.png"
               alt="github icon"
             />
           </a>
