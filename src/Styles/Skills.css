@@ -83,6 +83,7 @@
 .skills--section--certifications {
   width: 100%;
 }
+
 .certifications--title {
   font-size: 28px;
   font-family: fantasy;
@@ -102,19 +103,12 @@ ul {
 
 .each--certificate ul li:before {
   content: "";
-
   display: inline-block;
-
   height: 18px;
-
   width: 18px;
-
   background-size: 18px;
-
   background-image: url("img/badge.png");
-
   background-repeat: no-repeat;
-
   margin-right: 5px;
 }
 

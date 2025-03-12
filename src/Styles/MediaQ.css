@@ -323,6 +323,9 @@
   }
   .navbar--logo {
     font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    font-style: italic;
   }
   .nav_hamburger {
     width: 1.875rem;
@@ -429,11 +432,22 @@
   }
 
   .certifications--title {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .each--certificate {
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .each--certificate ul li:before {
+    content: "";
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-size: 18px;
+    background-image: url("img/badge.png");
+    background-repeat: no-repeat;
+    margin-right: 5px;
   }
 
   /******* Skills section End *******/
