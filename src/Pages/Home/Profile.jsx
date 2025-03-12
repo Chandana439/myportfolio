@@ -15,7 +15,9 @@ const Profile = () => {
   return (
     <section id="profile" className="profile-sec">
       <div className="profile-sec-img">
-        <img src="./assests/ch-profile-img.png" alt="Profile Section" />
+        <Fade direction="up" duration={2000} triggerOnce>
+          <img src="./assests/ch-profile-img.png" alt="Profile Section" />
+        </Fade>
       </div>
       <div className="profile-sec-content-box">
         <div className="profile-sec-content">
@@ -48,6 +50,7 @@ const Profile = () => {
             justifyContent: "center",
             gap: "20px",
           }}
+          className="profile--sec--bottom"
         >
           <button className="btn btn-primary" onClick={handleResume}>
             Resume

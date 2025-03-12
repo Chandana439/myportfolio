@@ -14,6 +14,28 @@
   z-index: 1000;
 }
 
+/* Hamburger menu  */
+
+.nav_hamburger {
+  display: none;
+  width: 1.875rem;
+  height: 1.313rem;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+}
+
+.nav_hamburger:hover {
+  cursor: pointer;
+}
+.nav_hamburger_line {
+  display: block;
+  height: 0.188rem;
+  width: 100%;
+  background-color: #000000;
+  border-radius: 0.625rem;
+  transition: all ease-in-out 0.2s;
+}
 .navbar--logo {
   font-size: 28px;
   font-weight: 400;

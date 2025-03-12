@@ -19,7 +19,7 @@ const Skills = () => {
           <div className="skills--section--images">
             {data?.frontend?.map((item, index) => (
               <div key={index} className="skills--section--category">
-                <img src={item.src} alt="infrastructure" />
+                <img src={item.src} alt="frontend" />
                 <h3 className="skills--image--title">{item.title}</h3>
               </div>
             ))}
@@ -35,7 +35,7 @@ const Skills = () => {
           <div className="skills--section--images">
             {data?.backend?.map((item, index) => (
               <div key={index} className="skills--section--category">
-                <img src={item.src} alt="infrastructure" />
+                <img src={item.src} alt="backend" />
                 <h3 className="skills--image--title">{item.title}</h3>
               </div>
             ))}
@@ -50,7 +50,7 @@ const Skills = () => {
           <div className="skills--section--images">
             {data?.database?.map((item, index) => (
               <div key={index} className="skills--section--category">
-                <img src={item.src} alt="infrastructure" />
+                <img src={item.src} alt="database" />
                 <h3 className="skills--image--title">{item.title}</h3>
               </div>
             ))}
@@ -66,7 +66,7 @@ const Skills = () => {
           <div className="skills--section--images">
             {data?.cloud?.map((item, index) => (
               <div key={index} className="skills--section--category">
-                <img src={item.src} alt="infrastructure" />
+                <img src={item.src} alt="cloud" />
                 <h3 className="skills--image--title">{item.title}</h3>
               </div>
             ))}

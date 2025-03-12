@@ -3,8 +3,6 @@
 .skills--section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 25.33px 120.33px;
   gap: 30.667px;
 }
@@ -31,11 +29,11 @@
 }
 
 .skills--section--card {
+  display: inline-block;
   text-align: center;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  width: 100%;
   border-bottom: 0px solid var(--primary);
   transition: border-bottom 0.6s ease-in-out;
 }
@@ -61,19 +59,11 @@
   gap: 20px;
 }
 
-.skills--section--category {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
 .skills--section--category img {
   width: 55px;
   height: 55px;
   justify-content: center;
   align-items: center;
-  border-radius: 6px;
   padding: 14px;
   margin: 10px;
   margin-bottom: 30px;
@@ -89,6 +79,7 @@
   font-weight: 500;
   line-height: 10px;
 }
+
 .skills--section--certifications {
   width: 100%;
 }

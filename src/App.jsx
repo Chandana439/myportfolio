@@ -10,6 +10,7 @@ import "./Styles/About.css";
 import "./Styles/Portfolio.css";
 import "./Styles/Contact.css";
 import "./Styles/Footer.css";
+import "./Styles/MediaQ.css";
 
 function App() {
   return (

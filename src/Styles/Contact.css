@@ -45,11 +45,13 @@
   text-align: center;
   font-size: 24px;
 }
+
 .contact--email > p,
 .contact--linkedin > p {
   text-align: center;
   font-size: 16px;
 }
+
 .contact--email > button,
 .contact--linkedin > button {
   text-align: center;

@@ -1,10 +1,10 @@
 .about--section {
   display: grid;
   grid-template-columns: 1fr 440px;
-  padding: 133.333px 95.333px 133.33px 115.333px;
+  padding: 133.333px 170.333px 133.33px 170.333px;
   align-items: center;
   justify-content: space-between;
-  gap: 120px;
+  gap: 80px;
 }
 
 .about-sec-content {
@@ -28,7 +28,7 @@
   bottom: 0px;
   width: 150px;
   height: 14px;
-  transform: skew(-12deg) translateX(-50%);
+  transform: skew(-40deg) translateX(-50%);
   background: rgba(238, 111, 87, 0.5);
   z-index: -1;
 }
@@ -43,6 +43,8 @@
 }
 
 .about--section--img {
+  display: flex;
+  justify-content: right;
   border-radius: 40px;
 }
 

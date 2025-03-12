@@ -43,14 +43,17 @@ const Navbar = () => {
           Chandana Ganesu
         </Link>
       </div>
-      <a
-        className={`nav_hamburger ${navActive ? "active" : ""}`}
-        onClick={toggleNav}
-      >
-        <span className="nav_hamburger_line"></span>
-        <span className="nav_hamburger_line"></span>
-        <span className="nav_hamburger_line"></span>
-      </a>
+      <div>
+        <a
+          className={`nav_hamburger ${navActive ? "active" : ""}`}
+          onClick={toggleNav}
+        >
+          <span className="nav_hamburger_line"></span>
+          <span className="nav_hamburger_line"></span>
+          <span className="nav_hamburger_line"></span>
+        </a>
+      </div>
+
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
